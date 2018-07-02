@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 	<html>
 		<head>
-			<meta charset="utf-8">
-    			<script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
-			<!-- link to main stylesheet -->
-    			<link rel="stylesheet" href="/css/main.css">
 			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
 		<body>
 			<nav>
@@ -16,13 +14,16 @@
 	        		<li><a href="/blog">Blog</a></li>
 	    		</ul>
 			</nav>
-			    <div class="box">
-        {{ content }}
-        <ul>
-            <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
-        </ul>
-    </div>
+			<div class="container">
+			
+			{{ content }}
+			
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
+	        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
+				</ul>
+			</footer>
 		</body>
 	</html>
