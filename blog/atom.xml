@@ -6,14 +6,14 @@ layout: feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-	<title>Hank Quinlan's Blog</title>
-	<link href="http://hankquinlan.github.io/blog/atom.xml" rel="self"/>
-	<link href="http://hankquinlan.github.io/blog"/>
+	<title>Nate Shaw's Blog</title>
+	<link href="http://shaw98.github.io/blog/atom.xml" rel="self"/>
+	<link href="http://nshaw98.github.io/blog"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://hankquinlan.github.io/blog</id>
+	<id>http://nshaw98.github.io/blog</id>
 	<author>
-		<name>Hank Quinlan</name>
-		<email>hankquinlanhub@gmail.com</email>
+		<name>Nate Shaw</name>
+		<email>nathan.shaw@uconn.edu</email>
 	</author>
 
 	{% for post in site.posts %}
@@ -21,7 +21,7 @@ layout: feed
 			<title>{{ post.title }}</title>
 			<link href="http://hankquinlan.github.io{{ post.url }}"/>
 			<updated>{{ post.date | date_to_xmlschema }}</updated>
-			<id>http://hankquinlan.github.io{{ post.id }}</id>
+			<id>http://nshaw98.github.io{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
 		</entry>
 	{% endfor %}
