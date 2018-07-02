@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Hank Quinlan, Horrible Cop, Launches Site"
+title: "Nate Shaw Makes a Website"
 date: 2018-07-02
 ---
 
-Well. Finally got aroudn to learning how to make a webste.
+Well. Finally got around to learning how to make a webste.
