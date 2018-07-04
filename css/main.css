@@ -1,4 +1,5 @@
-body {
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+/* body {
     margin: 60px auto;
     width: 70%;
 }
@@ -40,4 +41,69 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+} */
+body{
+    margin: 0;
+    padding: 0;
+    background: grey;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+
+ul a{
+    text-decoration: none;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    width: 20%;
+    display: block;
+    background: #607d8b;
+    padding: 8px 0;
+    float: left;
+    transition: 0.5s;
+}
+ul a:hover{
+    opacity: 0.8;
+}
+.box{
+    position:absolute;
+    left: 50%;
+    top: 50%;
+        transform: translate(-50%,-50%);
+}
+.box a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    margin: 10px;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    transition: 0.5s all;
+    cursor: pointer;
+    
+}
+.fb{
+    background: #2980b9;
+}
+.tw{
+    background: #3498db;
+}
+.yb{
+    background: #e74c3c;
+}
+.wp{
+    background: #27ae60;
+}
+.im{
+    background: #e67e22;
+}
+.box a:hover{
+    margin-top: -10px;
 }
