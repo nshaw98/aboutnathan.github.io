@@ -53,3 +53,10 @@ footer ul li img {
 footer ul li img:hover {
 	opacity: 0.8;
 }
+/* class that holds the info on the home page, blurb */
+.blurb{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    transform: rotate(-90deg);
+}
