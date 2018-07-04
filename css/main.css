@@ -43,3 +43,12 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+footer ul li img {
+	height: 50px;
+	width: 50px;
+	margin-left: 7px;
+	margin-right: 7px;
+}
+footer ul li img:hover {
+	opacity: 0.8;
+}
