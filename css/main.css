@@ -9,7 +9,6 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
-    color: #1D8DEE;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -17,7 +16,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #1D8DEE;
 }
 a:hover {
     text-decoration: underline;
