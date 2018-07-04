@@ -1,12 +1,15 @@
 body {
     margin: 60px auto;
     width: 70%;
+    background-color: #151E29;
+    color: white;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    color: #1D8DEE;
 }
 nav ul li, footer ul li {
     display: inline;
