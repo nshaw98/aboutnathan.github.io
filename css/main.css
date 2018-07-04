@@ -14,37 +14,12 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
-/* a {
+a {
     text-decoration: none;
     color: #1D8DEE;
 }
 a:hover {
     text-decoration: underline;
-} */
-a{
-  text-decoration: none;
-  position: relative;
-  color: #313131;
-  font-size: 50px;
-  font-weight: 700;
-  font-family: sans-serif;
-  display: block;
-  overflow: hidden;
-  transition: 0.7s all;
-  padding: 14px 30px;
-  text-transform: uppercase;
-}
-a:before{
-  content: '';
-  width: 60px;
-  position: absolute;
-  border-bottom: 8px solid #313131;
-  bottom: 0;
-  right: 350px;
-  transition: 0.7s all;
-}
-a:hover:before{
-  right: 0;
 }
 h1 {
     font-size: 3em;
