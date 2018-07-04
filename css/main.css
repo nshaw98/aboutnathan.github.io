@@ -47,13 +47,13 @@ body{
     padding: 0;
     background: grey;
 }
-ul{
+nav ul, footer ul{
     margin: 0;
     padding: 0;
     width: 100%
 }
 
-ul a{
+nav ul li, footer ul li{
     text-decoration: none;
     color:white;
     font-size: 40px;
@@ -74,7 +74,7 @@ ul a:hover{
     top: 50%;
         transform: translate(-50%,-50%);
 }
-.box a{
+a{
     text-decoration: none;
     color: white;
     font-size: 40px;
@@ -104,6 +104,6 @@ ul a:hover{
 .im{
     background: #e67e22;
 }
-.box a:hover{
+a:hover{
     margin-top: -10px;
 }
