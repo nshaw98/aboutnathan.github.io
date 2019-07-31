@@ -1,5 +1,0 @@
-name: Nathan Shaw, CS Student
-markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
-
-theme: jekyll-theme-minimal
